@@ -1,0 +1,19 @@
+---
+compiled_package_info:
+  package_name: BasicCoin
+  address_alias_instantiation:
+    std: "00000000000000000000000000000001"
+  source_digest: 21995711B3EF333A2945FA1D510687488BC560E95439EBDBF0DB3159F6E6FD81
+  build_flags:
+    dev_mode: true
+    test_mode: true
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+dependencies:
+  - MoveNursery
+  - MoveStdlib
