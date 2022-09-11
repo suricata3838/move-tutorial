@@ -3,9 +3,9 @@ name = "BasicCoin"
 version = "0.0.0"
 
 [dependencies]
-MoveStdlib = { local = "../../../../move-stdlib/", addr_subst = { "std" = "0x1" } }
-MoveNursery = { local = "../../../../move-stdlib/nursery", addr_subst = { "std" = "0x1" } }
-
+MoveStdlib = { local = "../../../../move-stdlib/"}
+MoveNursery = { local = "../../../../move-stdlib/nursery"}
 
 [addresses]
-std =  "0x1"
+#any address in HEX
+std = "0xABCD"

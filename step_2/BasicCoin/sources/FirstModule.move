@@ -1,4 +1,4 @@
-module 0xCAFE::BasicCoin {
+module 0xC0FFEE::BasicCoin {
      // Only included in compilation for testing. Similar to #[cfg(testing)]
     // in Rust. Imports the `Signer` module from the MoveStdlib package.
     #[test_only]
@@ -18,7 +18,7 @@ module 0xCAFE::BasicCoin {
     #[test(account = @0xC0FFEE)]
     fun test_mint_10(account: signer) acquires Coin {
         let addr = signer::address_of(&account);
-        mint(account, 11);
+        mint(account, 10);
         // Make sure there is a `Coin` resource under `addr` with a value of `10`.
         // We can access this resource and its value, since we are in the
         // same module that defined the `Coin` resource.
